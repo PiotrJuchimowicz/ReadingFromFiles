@@ -33,5 +33,6 @@ public class Transformer {
                 throw new IllegalStateException("Unable to recognise file with type: " + entry.getValue());
             }
         }
+        log.info("Algorithm finished");
     }
 }

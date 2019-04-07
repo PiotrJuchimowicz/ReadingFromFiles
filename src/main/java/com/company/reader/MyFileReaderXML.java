@@ -117,5 +117,4 @@ public class MyFileReaderXML extends MyFileReader {
         Characters nameDataEvent = (Characters) xmlEventReader.nextEvent();
         return nameDataEvent.getData();
     }
-
 }

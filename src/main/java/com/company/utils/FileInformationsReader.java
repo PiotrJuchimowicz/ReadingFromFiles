@@ -12,7 +12,7 @@ public class FileInformationsReader {
     private static final Logger log= LoggerFactory.getLogger(FileInformationsReader.class);
 
     public Map<String, String> getFileProperties() {
-        readFileInformations();
+        this.readFileInformations();
         return filesInfo;
     }
 

@@ -8,7 +8,7 @@ public class Customer {
     private String age;
     private String name;
     private String surname;
-    private List<Contact> contacts;
+    private List<Contact> contacts = null;
 
     public Customer() {
     }
@@ -17,7 +17,6 @@ public class Customer {
         this.age = age;
         this.name = name;
         this.surname = surname;
-        contacts = null;
     }
 
     public void addContact(Contact contact) {

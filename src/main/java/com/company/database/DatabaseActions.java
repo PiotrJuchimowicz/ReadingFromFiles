@@ -106,5 +106,4 @@ public class DatabaseActions {
             throw new IllegalStateException("Unable to roll back transaction", e);
         }
     }
-
 }

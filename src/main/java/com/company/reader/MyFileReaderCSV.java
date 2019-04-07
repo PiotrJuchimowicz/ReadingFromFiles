@@ -25,7 +25,7 @@ public class MyFileReaderCSV extends MyFileReader {
                 databaseActions.insert(customer);
             }
         } catch (FileNotFoundException e) {
-            log.error("Unable to get data from file: " + filePath);
+            log.error("Csv file not found: " + filePath);
         }
     }
 

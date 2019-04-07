@@ -55,7 +55,7 @@ public class PropertyFileResolver {
         try {
             properties.load(new FileInputStream(PROPERTIES_FILE_PATH));
         } catch (IOException e) {
-            log.error("Unable to read properties from file: " + PROPERTIES_FILE_PATH);
+            log.error("Unable to read properties from file: " + PROPERTIES_FILE_PATH, e);
             throw new IllegalStateException("Unable to read properties from file: " + PROPERTIES_FILE_PATH, e);
         }
     }
