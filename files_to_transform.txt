@@ -1,0 +1,4 @@
+filePath = C:\Users\PiotrJuchimowicz\Desktop\ReadingFromFiles\dane-osoby.xml
+fileType = XML
+filePath = C:\Users\PiotrJuchimowicz\Desktop\ReadingFromFiles\dane-osoby.txt
+fileType = CSV
